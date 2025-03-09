@@ -1,1 +1,86 @@
+# Archivos de Quartus (Intel FPGA)
+db/
+incremental_db/
+output_files/
+*.rpt
+*.qws
+*.qpf
+*.qsf
+*.qdf
+*.qmsg
+*.pin
+*.chg
+*.done
+*.map
+*.summary
+*.tcl.bak
+*.jdi
+*.smsg
+*.sdc
+*.rpt.bak
 
+# Archivos de ModelSim-Altera
+work/
+modelsim.ini
+transcript
+*.wlf
+*.mti
+*.mpf
+*.mti2
+*.log
+*.rpt
+*.dat
+*.syn
+*.vstf
+*.ucdb
+*.vcd
+*.vpd
+
+# Archivos temporales y de compilación
+*.o
+*.obj
+*.d
+*.vo
+*.syn
+*.elf
+*.hex
+*.map
+*.lst
+*.asm
+
+# Archivos de simulación y waveforms
+*.wdb
+*.svf
+*.vsm
+*.fsdb
+*.hls_run
+*.hls_logs
+*.tmp
+*.log
+*.jou
+*.str
+*.pb
+*.wlf
+*.wav
+*.tcf
+
+# Archivos de Synopsys/VCS (si usas herramientas adicionales)
+csrc/
+simv*
+.daidir/
+.vstf
+
+# Archivos de Windows
+Thumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.bak
+*.tmp
+*.swp
+*.lnk
+
+# Archivos de Python (si usas scripts)
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
